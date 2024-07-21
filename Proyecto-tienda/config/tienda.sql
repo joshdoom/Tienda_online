@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-07-2024 a las 03:47:46
+-- Tiempo de generación: 21-07-2024 a las 23:44:49
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -69,7 +69,8 @@ CREATE TABLE `producto` (
 --
 
 INSERT INTO `producto` (`id`, `nombre`, `descripcion`, `precio`, `stock`, `activo`) VALUES
-(1, 'T-shirt de Satoru Gojo & Toji Fushiguro', 'T-shirt de Satoru Gojo & Toji Fushiguro', 8, 1, 1);
+(1, 'T-shirt de Satoru Gojo & Toji Fushiguro', 'T-shirt de Satoru Gojo & Toji Fushiguro', 8, 1, 1),
+(2, 'T-Shirt ☠️Wanted Monkey•D•Luffy☠️ ONE PIECE\r\n', 'T-Shirt ☠️Wanted Monkey•D•Luffy☠️ ONE PIECE\r\n', 8, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -133,7 +134,7 @@ ALTER TABLE `pedido`
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `usuario`
